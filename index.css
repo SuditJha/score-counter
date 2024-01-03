@@ -1,6 +1,9 @@
 body {
     margin: 0;
-    background: linear-gradient(#1B244A, #9AABD8);
+    /* background: linear-gradient(#1B244A, #9AABD8); */
+    background-image: url("image/court.webp");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @font-face {
@@ -48,7 +51,7 @@ body {
     text-align: center;
 }
 
-.h-score-btn {
+.score-btn {
     background: none;
     color: #9AABD8;
     border: 2px solid #9AABD8;
@@ -59,19 +62,10 @@ body {
     border-radius: 8px;
 }
 
-.g-score-btn {
-    background: none;
-    color: #9AABD8;
-    border: 2px solid #9AABD8;
-    font-family: timer;
-    font-size: 28px;
-    text-align: center;
-    padding:  10px;
-    border-radius: 8px;
-}
+
 
 .new-game {
-    margin: 10px auto;
+    margin: 140px;
     display: flex;
     justify-content: center;
 }
@@ -84,3 +78,4 @@ body {
     border: 6px dashed #9AABD8;
     padding: 10px 20px;
 }
+

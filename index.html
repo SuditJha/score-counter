@@ -6,24 +6,24 @@
         <div class="container">
             <div class="item">
                 <h3>HOME</h3>
-                <h2 class="score">0</h2>
+                <h2 class="score" id="home-score">0</h2>
                 <div >
-                    <button class="h-score-btn">+1</button>
-                    <button class="h-score-btn">+2</button>
-                    <button class="h-score-btn">+3</button>
+                    <button class="score-btn" onclick="homeAdd1Point()">+1</button>
+                    <button class="score-btn" onclick=" homeAdd2Point()">+2</button>
+                    <button class="score-btn" onclick=" homeAdd3Point()">+3</button>
                 </div>
             </div>
             <div class="item">
                 <h3>GUEST</h3>
-                <h2  class="score">0</h2>
+                <h2  class="score" id="guest-score">0</h2>
                 <div>
-                    <button class="g-score-btn">+1</button>
-                    <button class="g-score-btn">+2</button>
-                    <button class="g-score-btn">+3</button>
+                    <button class="score-btn" onclick="guestAdd1Point()">+1</button>
+                    <button class="score-btn" onclick="guestAdd2Point()">+2</button>
+                    <button class="score-btn" onclick="guestAdd3Point()">+3</button>
                 </div>
             </div>
         </div>
-        <div class="new-game"><button class="new-game-btn">New Game</button></div>
+        <div class="new-game"><button class="new-game-btn" onclick="newGame()">New Game</button></div>
         <script src="index.js"></script>
     </body>
 </html>
